@@ -91,7 +91,7 @@
 
     <section class="flex flex-col items-center mb-10">
       <img src="assets/banner.png" class="mx-auto mt-16" alt="">
-      <h1 class="text-[4rem] font-extrabold text-[rgb(33, 33, 33)] text-center p-1 lg:p-5">
+      <h1 class="text-[3rem] lg:text-[4rem] font-extrabold text-[rgb(33, 33, 33)] text-center p-1 lg:p-5">
         A barn house of this design has a striking appearance
       </h1>
       <p class="text-[#494949] font-medium text-center px-[4em] md:px-[6em] lg:px-[10em]">
@@ -337,7 +337,26 @@
       <p class="text-dark-3 pb-10">
         The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
       </p>
-      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <label class="input input-bordered flex items-center gap-2 rounded-3xl placeholder:text-[16px]">
+          <input type="text" class="grow text-dark-2 text-[16px]" placeholder="First Name*" />
+        </label>
+        <label class="input input-bordered flex items-center gap-2 rounded-3xl placeholder:text-[16px]">
+          <input type="text" class="grow text-dark-2 text-[16px]" placeholder="Last Name*" />
+        </label>
+        <label class="input input-bordered flex items-center gap-2 rounded-3xl placeholder:text-[16px]">
+          <input type="text" class="grow text-dark-2 text-[16px]" placeholder="Phone Number*" />
+        </label>
+        <label class="input input-bordered flex items-center gap-2 rounded-3xl placeholder:text-[16px]">
+          <input type="text" class="grow text-dark-2 text-[16px]" placeholder="Email Adress*" />
+        </label>
+        <textarea class="textarea textarea-bordered md:col-span-2 rounded-3xl min-h-60 text-dark-2 text-[16px] placeholder:text-[16px]" placeholder="Write your message here"></textarea>
+        
+      </div>
+      <button type="submit" class="btn hover:bg-parrot/80 text-xl font-extrabold rounded-3xl bg-parrot w-full mt-5">
+        Book Consult
+        <span class="inline-flex justify-center items-center rounded-[50%] bg-black p-[.2em] text-white"><i class="fa-solid fa-arrow-right -rotate-45 text-[.9em]"></i></span>
+      </button>
     </section>
 
   </main>
